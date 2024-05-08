@@ -2014,6 +2014,14 @@ ul.partners-mentions li img:hover {
 
 }
 
+@media (max-width: 500px) {
+  #newsletter-form #submit-button-newsletter {
+    display: inline-block;
+    margin: 10px!important;
+    border-radius: 5px!important;
+}
+}
+
 @media (max-width: 375px) {
 
 	.navbar-toggle {

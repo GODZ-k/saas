@@ -1,43 +1,5 @@
-.home-section {
-	position: relative;
-	z-index: 999;
-	overflow: hidden;
-	position: relative;
-  	padding-top: 155px;
-  	padding-bottom: 75px;
-  	background-color: #1e90ff;
-}
 
-.home-section h1{
-	margin-bottom: 15px;
-    color: #fff;
-}
 
-.home-section p{
-	margin-bottom: 30px;
-	max-width: 600px;
-	font-size: 17px;
-	line-height: 26px;
-	font-weight: 400;
-	color: #fff;
-}
-
-ul.home-benefits {
-    margin: 10px 0 35px 0;
-    letter-spacing: 1px;
-    color: #fff;
-}
-
-ul.home-benefits li {
-    font-size: 17px;
-    line-height: 28px;
-    margin-bottom: 8px;
-    color: #fff;
-}
-
-ul.home-benefits li i {
-    font-size: 26px;
-    line-height: 28px;
-    margin-right: 5px;
-    color: #fff;
+.trial-btn{
+    font-family: 'Dosis', sans-serif;
 }
