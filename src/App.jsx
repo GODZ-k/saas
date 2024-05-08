@@ -1,15 +1,13 @@
-import React from 'react'
-import { Header, HeroSec } from './Components'
+import React from 'react';
+import { Header, HeroSec } from './Components';
 
 function App() {
   return (
     <div>
-
-      {/* <Header/> */}
-      <HeroSec/>
-
+      <Header />
+      <HeroSec />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
