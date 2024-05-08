@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, HeroSec } from './Components'
+import { About, Banner, Features, Header, HeroSec, Info, Promotion } from './Components'
 
 function App() {
   return (
@@ -7,7 +7,11 @@ function App() {
 
       {/* <Header/> */}
       <HeroSec/>
-
+<About/>
+<Info/>
+<Promotion/>
+<Banner/>
+<Features/>
     </div>
   )
 }
