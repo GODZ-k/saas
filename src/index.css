@@ -2,16 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-
-  text-decoration: none;
 }
 
 
@@ -2141,16 +2138,6 @@ ul.partners-mentions li img:hover {
 
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
 
-}
-
-  font-size: 40px;
-  font-family: 'Dosis', sans-serif;
-}
-p {
-  color: white;
-}
-li {
-  color: white;
-}
+} */
