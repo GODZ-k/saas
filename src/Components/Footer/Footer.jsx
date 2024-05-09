@@ -36,7 +36,7 @@ function Footer() {
         <div className="row">
             <div className="col-md-12 footer-bottom text-center">
                
-                <p>Copyright © 2019 <strong>Square</strong>. Designed by <a href="https://themeforest.net/user/epic-themes/portfolio?ref=Epic-Themes" target="_blank">Epic-Themes</a></p>
+                <p>Copyright © 2019 <strong>Square</strong>. Designed by <a href="#" target="_blank">Tanmay</a></p>
                 
             </div>
         </div>

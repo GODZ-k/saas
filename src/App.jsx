@@ -1,26 +1,11 @@
 import React from 'react'
-import { About, Banner, Benifits, Blog, Contact, DempBanner, Features, Footer, Header, HeroSec, Info, Price, Promotion, Questions, Team } from './Components'
+import { Home } from './Pages';
 
 
 function App() {
   return (
     <div>
-
-      <Header/>
-      <HeroSec/>
-<About/>
-<Info/>
-<Promotion/>
-<Banner/>
-<Features/>
-<Team/>
-<Benifits/>
-<Price/>
-<DempBanner/>
-<Questions/>
-<Blog/>
-<Contact/>
-<Footer/>
+<Home/>
     </div>
   );
 }
