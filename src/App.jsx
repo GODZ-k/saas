@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, Banner, Blog, Contact, DempBanner, Features, Footer, Header, HeroSec, Info, Price, Promotion, Questions, Team } from './Components'
+import { About, Banner, Benifits, Blog, Contact, DempBanner, Features, Footer, Header, HeroSec, Info, Price, Promotion, Questions, Team } from './Components'
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
 <Banner/>
 <Features/>
 <Team/>
+<Benifits/>
 <Price/>
 <DempBanner/>
 <Questions/>

@@ -17,6 +17,7 @@ import Blog from "./Blog/Blog";
 import Price from "./Price/Price";
 import BlogCard from "./Blog/BlogCard";
 import ProfileCard from "./Team/ProfileCard";
+import Benifits from "./Benifits/Benifits";
 
 export {
     Header,
@@ -37,5 +38,6 @@ export {
     Blog,
     DempBanner,
     BlogCard,
-    ProfileCard
+    ProfileCard,
+    Benifits
 }
