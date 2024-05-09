@@ -44,15 +44,13 @@
 }
 @media (max-width:600px) {
     .navbar{
-      
-        padding: 23% 4%;
-    
+        padding: 23% 5%;
     }
 }
 @media (max-width:400px) {
     .navbar{
       
-        padding: 27% 4%;
+        padding: 27% 5%;
     
     }
 }
