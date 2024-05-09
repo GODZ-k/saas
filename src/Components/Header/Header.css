@@ -30,7 +30,7 @@
     .navbar{
         flex-direction: column;
         position: fixed;
-        right: -225px;
+        right: -300px;
         /* right: 0; */
         top: 0;
         align-items: baseline;

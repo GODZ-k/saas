@@ -1,8 +1,24 @@
-import React, { useState } from 'react'
+import React, { useState,useRef, useEffect } from 'react'
 import "./Header.css"
 
 function Header() { 
   const [navbar , setNavbar] = useState(false)
+
+
+  const ref = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (ref.current && !ref.current.contains(event.target)) {
+        setNavbar(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [ref]);
 
   function toggleNavbar() {
     setNavbar(!navbar);
@@ -37,12 +53,12 @@ function Header() {
       <div className=' p-2'>
         <h1 className=' text-[30px] font-bold text-[#1e90ff]'>SquareX</h1>
       </div>
-      <div className={`flex items-baseline justify-start md:justify-center navbar transition-all ease-linear duration-150 md:duration-0 ${navbar ? 'openNav' : '' }`}>
+      <div ref={ref} className={`flex items-baseline justify-start md:justify-center navbar transition-all ease-linear duration-150 md:duration-0 ${navbar ? 'openNav' : '' }`}>
         <ul className='flex flex-col md:flex-row items-baseline md:justify-center md:items-center gap-4 font-bold text-xl text-black'>
         
           {
-            navItems.map((item)=>(
-              <li className='pb-3'>{item.name}</li>
+            navItems.map((item,index)=>(
+              <li key={index} className='pb-3'>{item.name}</li>
             ))
           }
          
