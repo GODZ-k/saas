@@ -2,4 +2,15 @@
 
 .trial-btn{
     font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+    line-height: 22px;
+    border: white;
+    box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.37);
+}
+
+.trial-btn:hover{
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+    color: #0470ea !important;
+    background: #f9f9f9;
+    transition: all .3s ease-in-out;
 }

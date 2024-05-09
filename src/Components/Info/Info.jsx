@@ -4,7 +4,7 @@ function Info() {
 
   
   return (
-    <section className="section-grey section-top-border">
+    <section className="section-grey section-top-border overflow-x-hidden">
 
     <div className="">
         <div className="row justify-center p-5">
