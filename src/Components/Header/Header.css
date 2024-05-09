@@ -24,9 +24,7 @@
     right: 0 !important;
 }
 
-#close{
-    /* display: none; */
-}
+
 
 @media (max-width:768px) {
     .navbar{
@@ -39,7 +37,7 @@
         justify-content: flex-start;
         z-index: 1000;
         background: white;
-        padding: 6% 4%;
+        padding: 14% 4%;
         height: 100vh;
     
     }
