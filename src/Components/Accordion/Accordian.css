@@ -1,0 +1,14 @@
+.main-accordian{
+    box-shadow: none !important;
+  }
+
+.main-accordian div{
+    padding: 0;
+    margin: 0 !important;
+}
+
+
+
+.accordian-content{
+    font-size: 10px;
+}

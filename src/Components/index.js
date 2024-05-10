@@ -18,7 +18,8 @@ import Price from "./Price/Price";
 import BlogCard from "./Blog/BlogCard";
 import ProfileCard from "./Team/ProfileCard";
 import Benifits from "./Benifits/Benifits";
-
+import Slider from "./Swiper/Slider";
+import AccordionExpandDefault from "./Accordion/Accordion";
 export {
     Header,
     Footer,
@@ -39,5 +40,7 @@ export {
     DempBanner,
     BlogCard,
     ProfileCard,
-    Benifits
+    Benifits,
+    Slider,
+    AccordionExpandDefault
 }

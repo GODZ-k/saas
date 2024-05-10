@@ -47,7 +47,7 @@ function Header() {
     }
   ]
   return (
-   <section className=' relative bg-white w-full header'>
+   <section className=' fixed z-[9999] bg-white w-full header'>
     <div className='  flex sm:px-3 md:px-0 md:justify-evenly items-center py-2'>
 
       <div className=' p-2'>
