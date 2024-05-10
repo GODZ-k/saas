@@ -24,7 +24,7 @@ function AccordionExpandDefault() {
               />
             </div>
             <div className="col-md-6 pl-0 pr-0 mt-10 mb-6 md:mb-4 md:mt-4 lg:mt-16">
-              <div class="small-col-inside">
+              <div className="small-col-inside px-4 sm:px-9 md:pl-[55px]">
                 <h3 className=" text-4xl font-bold text-[#071e55] mb-3">
                   Frequently Asked Questions
                 </h3>

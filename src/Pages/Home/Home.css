@@ -268,7 +268,7 @@ iframe {
 
 .small-col-inside{
 	max-width: 575px;
-	padding-left: 55px;
+	/* padding-left: 55px; */
 }
 
 .width-100{
