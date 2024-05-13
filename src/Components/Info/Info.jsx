@@ -10,7 +10,7 @@ function Info() {
         <div className="row justify-center p-5">
             <div className="col-md-6 margin-top-20">
 
-                <h3>Get Started Today</h3>
+                <h3 className=' text-3xl font-bold mb-3'>Get Started Today</h3>
 
                 <p className="margin-bottom-40">Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius sed aliquam etsim vitae netsum, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
 

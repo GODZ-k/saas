@@ -6,7 +6,7 @@ function Questions() {
     <div className="container">
         <div className="row">
             <div className="col-md-12 text-center padding-bottom-10">
-                <h2 className="section-title">Frequently Asked Questions</h2>
+                <h2 className="section-title font-bold text-3xl mb-3">Frequently Asked Questions</h2>
                 <p className="section-subtitle">Communicate with flexible tools that go where your team goes.</p>
             </div>
         </div>

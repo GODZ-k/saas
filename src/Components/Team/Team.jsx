@@ -7,7 +7,7 @@ function Team() {
         <div className="container">
             <div className="row">
                 <div className="col-md-12 text-center">
-                    <h2 className="section-title">The Team Behind Square</h2>
+                    <h2 className="section-title font-bold text-3xl">The Team Behind Square</h2>
                     <p className="section-subtitle">There are many variations of passages of Lorem Ipsum available, but the majority<br/>have suffered alteration, by injected humour, or new randomised words.</p>
 
                 </div>

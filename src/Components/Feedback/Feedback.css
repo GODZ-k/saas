@@ -22,14 +22,43 @@
   }
   .name-text{
     color: #1e90ff;
-  }
+font-weight: bold;
+ 
+font-size: 20px;}
   .job-text{
     font-weight: 400;
   }
   .para-text{
-    color: #7c8595;
+    font-size: 20px;
+    line-height: 32px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
+  .carousel-indicators {
+    bottom: -50px !important;
+}
+  .feedback-pagination{
+    background-color: #e0e0e0 !important;
+  }
+
+.carousel-indicators .active{
+    background-color: #1e90ff !important;
+  }
+
+  @media (max-width:500px) {
+    .carouser-inner-tanmay{
+      height: 50vh;
+    }
+    .carousel-container-aman {
+      height: 70vh !important;}
+  }
+  @media (max-width:470px){
+    .carousel-indicators {
+        bottom: -40px !important;
+    }
+  }
   @media (max-width: 425px) {
     .carousel-item-aman{
         height: 50vh;
@@ -38,11 +67,34 @@
         padding: 10% 10px;
         display: block;
       }
+      .carousel-indicators {
+        bottom: -14% !important;
+    }
   }
+
+  @media (max-width:367px) {
+    .carouser-inner-tanmay {
+      height: 55vh !important;
+  }
+  }
+
+  /* @media (max-width: 333px) {
+
+      .carousel-indicators {
+        bottom: 15px !important;
+    }
+  } */
 
 
   @media (max-width: 300px) {
-    .carousel-item-aman{
-        height: 60vh;
+    .carousel-container-aman{
+        height: 75vh !important;
       }
+
+      .carousel-indicators {
+        bottom: -40px !important;
+    }
+    .carouser-inner-tanmay {
+      height: 62vh !important;
+  }
   }

@@ -13,13 +13,13 @@ function AccordionExpandDefault() {
   };
   return (
     <>
-      <section class="section-white no-padding">
-        <div class="container-fluid px-0">
-          <div class="row no-gutters mr-0 ml-0">
+      <section className="section-white no-padding">
+        <div className="container-fluid px-0">
+          <div className="row no-gutters mr-0 ml-0">
             <div className=" pl-0 pr-0 col-md-6">
               <img
                 src="qquestion-img.jpeg"
-                class="width-100"
+                className=" w-full"
                 alt="Happy Woman"
               />
             </div>
@@ -28,7 +28,7 @@ function AccordionExpandDefault() {
                 <h3 className=" text-4xl font-bold text-[#071e55] mb-3">
                   Frequently Asked Questions
                 </h3>
-                <div class="accordion" id="accordionFAQ">
+                <div className="accordion" id="accordionFAQ">
                 <Accordion
                 
                     defaultExpanded

@@ -3,17 +3,17 @@ import Card from "../utils/Card";
 
 function About() {
   return (
-    <section class="section-white section-top-border" id="about">
+    <section className="section-white section-top-border" id="about">
 
-        <div class="container">
+        <div className="container">
 
-            <div class="row">
+            <div className="row">
 
-                <div class="col-md-12 text-center">
+                <div className="col-md-12 text-center">
 
-                    <h2 class="section-title">Integrated solutions designed for small business</h2>
+                    <h2 className="section-title text-3xl font-bold">Integrated solutions designed for small business</h2>
 
-                    <p class="section-subtitle">Communicate with flexible tools that go where your team goes.</p>
+                    <p className="section-subtitle">Communicate with flexible tools that go where your team goes.</p>
                     
                 </div>
 

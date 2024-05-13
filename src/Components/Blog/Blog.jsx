@@ -7,7 +7,7 @@ function Blog() {
         <div className=" lg:px-[15%] md:px-[8%] sm:px-[8%] px-[3%]">
             <div className="row">
                 <div className="col-md-12 text-center">
-                    <h2 className="section-title">Our Blog</h2>
+                    <h2 className="section-title font-bold text-3xl mb-3">Our Blog</h2>
                     
                     <p className="section-subtitle">Latest news, tips and best practices.</p>
                 </div>

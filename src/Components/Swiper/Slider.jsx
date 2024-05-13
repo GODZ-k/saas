@@ -42,7 +42,7 @@ const sliderTwo = [
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 text-center padding-bottom-40">
-            <h2 class="section-title white-text">How To Use Square</h2>
+            <h2 class="section-title white-text font-bold text-3xl">How To Use Square</h2>
             <p class="section-subtitle white">
               Here are a few examples of how you can use our software.
             </p>

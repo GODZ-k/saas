@@ -13,7 +13,7 @@ function Features() {
   
             <div className="col-md-12 text-center padding-bottom-10">
 
-                <h2 className="section-title">Amazing Features</h2>
+                <h2 className="section-title font-bold text-2xl">Amazing Features</h2>
 
                 <p className="section-subtitle">Communicate with flexible tools that go where your team goes.</p>
 

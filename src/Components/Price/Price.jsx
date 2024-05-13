@@ -7,7 +7,7 @@ function Price() {
         <div className="container">
             <div className="row">
                 <div className="col-md-12 text-center padding-bottom-40">
-                    <h2 className="section-title">Pricing for every business, at any stage</h2>
+                    <h2 className="section-title font-bold text-3xl mb-3">Pricing for every business, at any stage</h2>
                     <p className="section-subtitle">All pricing packages are backed up by a 30-day money back guarantee.</p>
                 </div>
             </div>

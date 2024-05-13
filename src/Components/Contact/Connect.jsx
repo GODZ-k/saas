@@ -10,14 +10,14 @@ function Contact() {
                 </div>
                 <div className="col-md-6 margin-top-70">
                     <div className="small-col-inside">
-                        <h3 className="margin-bottom-5">Get in touch</h3>
+                        <h3 className="margin-bottom-5 font-bold text-3xl mb-3">Get in touch</h3>
                         <p>Contact us today for a free, no obligation quote.</p>
                         <p className="contact_success_box">We received your message and you'll hear from us soon. Thank You!</p>
                         <form id="contact-form" className="contact" action="php/contact.php" method="post">
                             <input className="contact-input white-input" required="" name="contact_names" placeholder="Full Name*" type="text" />
                             <input className="contact-input white-input" required="" name="contact_email" placeholder="Email Adress*" type="email"/>
                             <input className="contact-input white-input" required="" name="contact_phone" placeholder="Phone Number*" type="text"/>
-                            <textarea className="contact-commnent white-input" rows="2" cols="20" name="contact_message" placeholder="Your Message..."></textarea>
+                            <textarea className="contact-commnent white-input py-2 px-2.3 text-sm" rows="2" cols="20" name="contact_message" placeholder="Your Message..."></textarea>
                             <input value="Send Message" id="submit-button" className="contact-submit" type="submit" />
                         </form>
                     </div>

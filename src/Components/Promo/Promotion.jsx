@@ -8,7 +8,7 @@ function Promotion() {
         <div className="row">
             <div className="col-md-12 text-center">
 
-                <h3 className="section-title">Trusted by over 250 great businesses</h3>
+                <h3 className="section-title text-3xl font-bold">Trusted by over 250 great businesses</h3>
 
             </div>
             <div className="col-md-12 text-center">
@@ -37,7 +37,7 @@ function Promotion() {
 
                 <div className="integration-platforms">
                     
-                    <h5>Easy To Integrate With:</h5>
+                    <h5 className=' text-2xl font-bold'>Easy To Integrate With:</h5>
                     
                     <ul className="integration-mentions">
                         <li><img src="images/app01.png" alt="Name"/></li>

@@ -6,7 +6,7 @@ function Benifits() {
         <div class="container">
             <div class="row">
                 <div class="col-md-6 padding-top-20">
-                    <h3>Get ready to discover all the benefits and secrets of our amazing software.</h3>
+                    <h3 className=' font-bold text-3xl mb-3'>Get ready to discover all the benefits and secrets of our amazing software.</h3>
                     <p>Velis demo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed quia magni dolores eos qui ratione sequi nesciunt neque et poris ratione sequi enim quia tempor magni.</p>
                     <ul class="benefits">
                         <li><i class="fa fa-check"></i> Quia magni netsum eos qui ratione sequi.</li>

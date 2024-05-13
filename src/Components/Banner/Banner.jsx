@@ -8,7 +8,7 @@ function Banner() {
         <div className="row">
             <div className="col-md-12 text-center padding-top-50 padding-bottom-20">
 
-                <h3 className="white-text">Ready to make your sales team more productive?<br/>
+                <h3 className="white-text text-3xl font-bold">Ready to make your sales team more productive?<br/>
                 Please enter your email to get started.</h3>
 
             </div>
