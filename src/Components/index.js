@@ -20,6 +20,7 @@ import ProfileCard from "./Team/ProfileCard";
 import Benifits from "./Benifits/Benifits";
 import Slider from "./Swiper/Slider";
 import AccordionExpandDefault from "./Accordion/Accordion";
+import Feedbacks from "./Feedback/Feedbacks";
 export {
     Header,
     Footer,
@@ -42,5 +43,6 @@ export {
     ProfileCard,
     Benifits,
     Slider,
+    Feedbacks,
     AccordionExpandDefault
 }
