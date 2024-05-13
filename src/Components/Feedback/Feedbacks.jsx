@@ -9,7 +9,7 @@ function Feedbacks() {
           class="carousel slide"
           data-ride="carousel"
         >
-          <ol className="carousel-indicators">
+          <ol className="carousel-indicators-tanmay">
             <li
               data-target="#carouselExampleIndicators"
               data-slide-to="0"
