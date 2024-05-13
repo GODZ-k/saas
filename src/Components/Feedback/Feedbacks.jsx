@@ -3,28 +3,29 @@ import "./Feedback.css"
 function Feedbacks() {
 
   useEffect(() => {
-    // Auto play the carousel
     const carousel = document.querySelector("#carouselExampleIndicators");
     const carouselInstance = new bootstrap.Carousel(carousel, {
-      interval: 4000 // adjust the interval as needed
+      interval: 3000 // adjust the interval as needed
     });
-
-    // Pause the carousel when the user touches it
-    carousel.addEventListener("touchstart", () => {
+  
+    const handleTouchStart = () => {
       carouselInstance.pause();
-    });
-
-    // Resume auto-playing when the user stops touching the carousel
-    carousel.addEventListener("touchend", () => {
+    };
+  
+    const handleTouchEnd = () => {
       carouselInstance.cycle();
-    });
-
+    };
+  
+    carousel.addEventListener("touchstart", handleTouchStart);
+    carousel.addEventListener("touchend", handleTouchEnd);
+  
     // Clean up event listeners when the component unmounts
     return () => {
-      carousel.removeEventListener("touchstart");
-      carousel.removeEventListener("touchend");
+      carousel.removeEventListener("touchstart", handleTouchStart);
+      carousel.removeEventListener("touchend", handleTouchEnd);
     };
   }, []);
+  
 
   return (
     <div>
@@ -33,6 +34,8 @@ function Feedbacks() {
           id="carouselExampleIndicators"
           class="carousel slide"
           data-ride="carousel"
+          data-interval="6000"
+
         >
           <ol className="carousel-indicators carousel-indicators-tanmay">
             <li
