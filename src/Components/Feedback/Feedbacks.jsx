@@ -6,7 +6,7 @@ function Feedbacks() {
     // Auto play the carousel
     const carousel = document.querySelector("#carouselExampleIndicators");
     const carouselInstance = new bootstrap.Carousel(carousel, {
-      interval: 2000 // adjust the interval as needed
+      interval: 4000 // adjust the interval as needed
     });
 
     // Pause the carousel when the user touches it
