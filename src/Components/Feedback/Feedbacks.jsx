@@ -1,6 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Feedback.css"
 function Feedbacks() {
+
+  useEffect(() => {
+    // Auto play the carousel
+    const carousel = document.querySelector("#carouselExampleIndicators");
+    const carouselInstance = new bootstrap.Carousel(carousel, {
+      interval: 2000 // adjust the interval as needed
+    });
+
+    // Pause the carousel when the user touches it
+    carousel.addEventListener("touchstart", () => {
+      carouselInstance.pause();
+    });
+
+    // Resume auto-playing when the user stops touching the carousel
+    carousel.addEventListener("touchend", () => {
+      carouselInstance.cycle();
+    });
+
+    // Clean up event listeners when the component unmounts
+    return () => {
+      carousel.removeEventListener("touchstart");
+      carousel.removeEventListener("touchend");
+    };
+  }, []);
+
   return (
     <div>
       <div className="carousel-container carousel-container-aman">
