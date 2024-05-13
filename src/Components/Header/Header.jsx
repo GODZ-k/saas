@@ -27,52 +27,63 @@ function Header() {
   const navItems = [
     {
       name:"Home",
-      slug:"/"
+      slug:"#hero"
     },
     {
       name:"About",
-      slug:"/"
+      slug:"#about"
     },
     {
       name:"Feature",
-      slug:"/"
+      slug:"#features"
     },
     {
-      name:"Theme",
-      slug:"/"
+      name:"Team",
+      slug:"#team"
+    },
+    {
+      name:"Showcase",
+      slug:"#showcase"
+    },
+    {
+      name:"Pricing",
+      slug:"#pricing"
+    },
+    {
+      name:"Blog",
+      slug:"#blog"
     },
     {
       name:"Contact",
-      slug:"/"
+      slug:"#contact"
     }
   ]
   return (
    <section className=' fixed z-[9999] bg-white w-full header'>
-    <div className='  flex sm:px-3 md:px-0 md:justify-evenly items-center py-2'>
+    <div className='  flex sm:px-3 lg:px-0 lg:justify-evenly items-center py-2'>
 
       <div className=' p-2'>
         <h1 className=' text-[30px] font-bold text-[#1e90ff]'>SquareX</h1>
       </div>
-      <div ref={ref} className={`flex items-baseline justify-start md:justify-center navbar transition-all ease-linear duration-150 md:duration-0 ${navbar ? 'openNav' : '' }`}>
-        <ul className='flex flex-col md:flex-row items-baseline md:justify-center md:items-center gap-4 font-bold text-xl text-black'>
+      <div ref={ref} className={`flex items-baseline justify-start lg:justify-center navbar transition-all ease-linear duration-150 lg:duration-0 ${navbar ? 'openNav' : '' }`}>
+        <ul className='flex flex-col lg:flex-row items-baseline lg:justify-center lg:items-center gap-4 font-bold text-xl text-black'>
         
           {
             navItems.map((item,index)=>(
-              <li key={index} className='pb-3'>{item.name}</li>
+              <li key={index} className='pb-3'><a href={item.slug}>{item.name}</a></li>
             ))
           }
          
         </ul>
         <button className=' text-white bg-[#1e90ff] px-5 py-3 rounded-md ml-4'>Get Started</button>  
-      <button id='close' onClick={toggleNavbar} className='top-6 text-2xl  right-40 sm:right-48 z-[99999] md:hidden absolute'><i className="fa-solid fa-xmark"></i></button>
+      <button id='close' onClick={toggleNavbar} className='top-6 text-2xl  right-40 sm:right-48 z-[99999] lg:hidden absolute'><i className="fa-solid fa-xmark"></i></button>
       </div>
     </div>
 
-        <button className='top-5 right-10 text-2xl md:hidden absolute' onClick={toggleNavbar}><i className=" fa-solid fa-bars"></i></button>
+        <button className='top-5 right-10 text-2xl lg:hidden absolute' onClick={toggleNavbar}><i className=" fa-solid fa-bars"></i></button>
    </section>
   )
 }
 
 export default Header
-
 

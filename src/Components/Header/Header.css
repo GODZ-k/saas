@@ -26,7 +26,7 @@
 
 
 
-@media (max-width:768px) {
+@media (max-width:1023px) {
     .navbar{
         flex-direction: column;
         position: fixed;
@@ -37,20 +37,20 @@
         justify-content: flex-start;
         z-index: 1000;
         background: white;
-        padding: 14% 5%;
+        padding: 10% 5% 0 5%;
         height: 100vh;
     
     }
 }
 @media (max-width:600px) {
     .navbar{
-        padding: 23% 5%;
+        padding: 13% 5% 0 5%;
     }
 }
 @media (max-width:400px) {
     .navbar{
       
-        padding: 27% 5%;
+        padding: 18% 5%;
     
     }
 }

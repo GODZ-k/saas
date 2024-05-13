@@ -3,7 +3,7 @@ import Card from "../utils/Card";
 
 function About() {
   return (
-    <section className="section-white section-top-border" id="about">
+    <section  className="section-white section-top-border" id="about">
 
         <div className="container">
 

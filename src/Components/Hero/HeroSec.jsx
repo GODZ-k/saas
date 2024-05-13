@@ -3,7 +3,7 @@ import "./HeroStyle.css";
 
 function HeroSec() {
   return (
-    <section className="w-full pt-20 md:pt-32 pb-16 bg-[#1e90ff]">
+    <section className="w-full pt-20 md:pt-32 pb-16 bg-[#1e90ff]" id="hero">
       <div className="flex justify-center items-center flex-wrap p-4">
         <div className=" p-0 sm:px-9 lg:p-0 lg:max-w-[50%]">
           <h1 className=" text-white mb-3 md:w-[90%]  lg:w-[80%] text-[40px]">Meet Square - The World's Most Powerful SaaS Software</h1>
