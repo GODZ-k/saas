@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Questions.css"
 function Questions() {
   return (
     <section className="section-white section-bottom-border" id="features">

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./Connect.css"
 function Contact() {
   return (
-    <section className="section-white no-padding section-top-border overflow-x-hidden" id="contact">
+    <section className="section-white section-top-border overflow-x-hidden md:p-6 p-1 map-tanmay" id="contact">
         <div className="container-fluid px-0">
             <div className="row no-gutters">
                 <div className="col-md-6">
@@ -17,7 +17,7 @@ function Contact() {
                             <input className="contact-input white-input" required="" name="contact_names" placeholder="Full Name*" type="text" />
                             <input className="contact-input white-input" required="" name="contact_email" placeholder="Email Adress*" type="email"/>
                             <input className="contact-input white-input" required="" name="contact_phone" placeholder="Phone Number*" type="text"/>
-                            <textarea className="contact-commnent white-input py-2 px-2.3 text-sm" rows="2" cols="20" name="contact_message" placeholder="Your Message..."></textarea>
+                            <textarea className="contact-commnent white-input py-2 px-2 text-sm" rows="2" cols="20" name="contact_message" placeholder="Your Message..."></textarea>
                             <input value="Send Message" id="submit-button" className="contact-submit" type="submit" />
                         </form>
                     </div>
