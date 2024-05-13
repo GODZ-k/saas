@@ -3,7 +3,7 @@ import React from "react";
 function Card(props, { className = "" }) {
   return (
     <div class="col-md-4">
-      <div class="main-services">
+      <div className="main-services">
         <div className="flex justify-center items-center"><img src="services-icon.png" alt="pic" /></div>
         <h3>Agencies</h3>
         <p>

@@ -38,57 +38,57 @@ const sliderTwo = [
     },
 ]
   return (
-    <section class="section-blue section-top-border" id="showcase">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12 text-center padding-bottom-40">
-            <h2 class="section-title white-text font-bold text-3xl">How To Use Square</h2>
-            <p class="section-subtitle white">
+    <section className="section-blue section-top-border" id="showcase">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-12 text-center padding-bottom-40">
+            <h2 className="section-title white-text font-bold text-3xl">How To Use Square</h2>
+            <p className="section-subtitle white">
               Here are a few examples of how you can use our software.
             </p>
           </div>
         </div>
       </div>
-      <div class="showcase-wrapper">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 padding-top-10">
+      <div className="showcase-wrapper">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12 padding-top-10">
               <div
                 id="carouselIndicators"
-                class="carousel slide carousel-showcase"
+                className="carousel slide carousel-showcase"
                 data-ride="carousel"
               >
-                <ol class="carousel-indicators">
+                <ol className="carousel-indicators">
                   <li
                     data-target="#carouselIndicators"
                     data-slide-to="0"
-                    class="active"
+                    className="active"
                   ></li>
                   <li data-target="#carouselIndicators" data-slide-to="1"></li>
                 </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <div className="row">
                     { sliderOne.map((slide,index)=>(
-                          <div class="col-md-4 col-sm-4 col-xs-6" key={index}>
-                          <figure class="gallery-item">
-                            <div class="popup-gallery popup-gallery-rounded portfolio-pic">
-                              <a class="popup2" href={slide.image}>
+                          <div className="col-md-4 col-sm-4 col-xs-6" key={index}>
+                          <figure className="gallery-item">
+                            <div className="popup-gallery popup-gallery-rounded portfolio-pic">
+                              <a className="popup2" href={slide.image}>
                                 <img
                                   src={slide.image}
-                                  class="width-100"
+                                  className="width-100"
                                   alt="pic"
                                 />
-                                <span class="eye-wrapper">
-                                  <i class="fa fa-search-plus eye-icon"></i>
+                                <span className="eye-wrapper">
+                                  <i className="fa fa-search-plus eye-icon"></i>
                                 </span>
                               </a>
                             </div>
-                            <div class="portfolio-box">
+                            <div className="portfolio-box">
                               <h3>
                                 <a href="#">{slide.title}</a>
                               </h3>
-                              <p class="portfolio-info">{slide.content}</p>
+                              <p className="portfolio-info">{slide.content}</p>
                             </div>
                           </figure>
                         </div>
@@ -96,28 +96,28 @@ const sliderTwo = [
                   
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <div class="row">
+                  <div className="carousel-item">
+                    <div className="row">
                    {sliderTwo.map((slide,index)=>(
-                       <div class="col-md-4 col-sm-4 col-xs-6" key={index}>
-                       <figure class="gallery-item">
-                         <div class="popup-gallery popup-gallery-rounded portfolio-pic">
-                           <a class="popup2" href={slide.image}>
+                       <div className="col-md-4 col-sm-4 col-xs-6" key={index}>
+                       <figure className="gallery-item">
+                         <div className="popup-gallery popup-gallery-rounded portfolio-pic">
+                           <a className="popup2" href={slide.image}>
                              <img
                                src={slide.image}
-                               class="width-100"
+                               className="width-100"
                                alt="pic"
                              />
-                             <span class="eye-wrapper">
-                               <i class="fa fa-search-plus eye-icon"></i>
+                             <span className="eye-wrapper">
+                               <i className="fa fa-search-plus eye-icon"></i>
                              </span>
                            </a>
                          </div>
-                         <div class="portfolio-box">
+                         <div className="portfolio-box">
                            <h3>
                              <a href="#">{slide.title}</a>
                            </h3>
-                           <p class="portfolio-info">{slide.content}</p>
+                           <p className="portfolio-info">{slide.content}</p>
                          </div>
                        </figure>
                      </div>
