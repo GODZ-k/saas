@@ -21,6 +21,9 @@ import Benifits from "./Benifits/Benifits";
 import Slider from "./Swiper/Slider";
 import AccordionExpandDefault from "./Accordion/Accordion";
 import Feedbacks from "./Feedback/Feedbacks";
+import Login from "./Login/Login";
+import Signup from "./Signup/Signup";
+import Input from "./utils/input";
 export {
     Header,
     Footer,
@@ -44,5 +47,8 @@ export {
     Benifits,
     Slider,
     Feedbacks,
-    AccordionExpandDefault
+    AccordionExpandDefault,
+    Login,
+    Signup,
+    Input
 }

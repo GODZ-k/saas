@@ -1,5 +1,6 @@
 import React, { useState,useRef, useEffect } from 'react'
 import "./Header.css"
+import { Link } from 'react-router-dom';
 
 function Header() { 
   const [navbar , setNavbar] = useState(false)
@@ -75,7 +76,7 @@ function Header() {
           }
          
         </ul>
-        <button className=' text-white bg-[#1e90ff] px-5 py-3 rounded-md ml-4'>Get Started</button>  
+        <Link to="/login" className=' text-white bg-[#1e90ff] px-5 py-3 rounded-md ml-4'>Get Started</Link>  
       <button id='close' onClick={toggleNavbar} className='top-6 text-2xl  right-40 sm:right-48 z-[99999] lg:hidden absolute'><i className="fa-solid fa-xmark"></i></button>
       </div>
     </div>
