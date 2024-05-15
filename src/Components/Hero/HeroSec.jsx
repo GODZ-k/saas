@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./HeroStyle.css";
+import {Input,Button} from "../index";
+import PopupForm from "../Popup/PopupForm";
 
 function HeroSec() {
+  const [isOpen, setIsOpen] = useState(false);
+  
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <section className="w-full pt-20 md:pt-32 pb-16 bg-[#1e90ff]" id="hero">
       <div className="flex justify-center items-center flex-wrap p-4">
@@ -22,7 +30,8 @@ function HeroSec() {
             </li>
           </ul>
           {/* <Link></Link> */}
-          <a href="#" className="bg-white px-4 py-3 rounded-md trail-btn font-bold text-[#056aeb] trial-btn text-xl">Start Your Free Trial</a>
+          <a href="#" className=" bg-white px-4 py-3 rounded-md trail-btn font-bold text-[#056aeb] trial-btn text-xl"  onClick={togglePopup} >Start Your Free Trial</a>
+         <PopupForm setIsOpen={setIsOpen} isOpen={isOpen} onClick={togglePopup}/>
         </div>
         <div className=" pt-10 lg:py-0 md:max-w-[60%] lg:max-w-[50%]">
           <img src="hero-img.png" alt="" srcset="" />

@@ -24,6 +24,7 @@ import Feedbacks from "./Feedback/Feedbacks";
 import Login from "./Login/Login";
 import Signup from "./Signup/Signup";
 import Input from "./utils/input";
+import SimplePopup from "./Popup/PopupForm";
 export {
     Header,
     Footer,
@@ -50,5 +51,6 @@ export {
     AccordionExpandDefault,
     Login,
     Signup,
-    Input
+    Input,
+    SimplePopup
 }

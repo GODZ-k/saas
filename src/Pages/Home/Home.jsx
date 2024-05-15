@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import { About,AccordionExpandDefault, Banner, Benifits, Blog, Contact, DempBanner, Features, Feedbacks, Footer, Header, HeroSec, Info, Price, Promotion, Questions, Slider, Team } from '../../Components'
+import { About,AccordionExpandDefault, Banner, Benifits, Blog, Contact, DempBanner, Features, Feedbacks, Footer, Header, HeroSec, Info, Price, Promotion, Questions, SimplePopup, Slider, Team } from '../../Components'
 function Home() {
   return (
     <div>
@@ -22,6 +22,7 @@ function Home() {
 <Blog/>
 <Contact/>
 <Footer/>
+<SimplePopup/>
     </div>
   )
 }
